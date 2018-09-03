@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.proact.ankit.FirebaseRecyclerView">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.proact.ankit.FirebaseRecyclerView.Why"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.proact.ankit.FirebaseRecyclerView.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.proact.ankit.FirebaseRecyclerView.Profile_Acttivity" />
+        <activity android:name="com.proact.ankit.FirebaseRecyclerView.AfterClick" />
+        <activity android:name="com.proact.ankit.FirebaseRecyclerView.PdfWebView" />
+        <activity android:name="com.proact.ankit.FirebaseRecyclerView.Videos" />
+        <activity android:name="com.proact.ankit.FirebaseRecyclerView.VideoListRetrive"></activity>
+    </application>
+
+</manifest>
